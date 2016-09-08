@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D48583751D81F2DD00925612 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48583741D81F2DD00925612 /* start.txt */; };
 		D4A21AB41D7FC1C60011A71A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A21AB31D7FC1C60011A71A /* AppDelegate.swift */; };
 		D4A21AB61D7FC1C60011A71A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A21AB51D7FC1C60011A71A /* MasterViewController.swift */; };
-		D4A21AB81D7FC1C60011A71A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A21AB71D7FC1C60011A71A /* DetailViewController.swift */; };
 		D4A21ABB1D7FC1C60011A71A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A21AB91D7FC1C60011A71A /* Main.storyboard */; };
 		D4A21ABD1D7FC1C60011A71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A21ABC1D7FC1C60011A71A /* Assets.xcassets */; };
 		D4A21AC01D7FC1C60011A71A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A21ABE1D7FC1C60011A71A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D48583741D81F2DD00925612 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		D4A21AB01D7FC1C60011A71A /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A21AB31D7FC1C60011A71A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4A21AB51D7FC1C60011A71A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		D4A21AB71D7FC1C60011A71A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D4A21ABA1D7FC1C60011A71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4A21ABC1D7FC1C60011A71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4A21ABF1D7FC1C60011A71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D48583731D81F2DD00925612 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				D48583741D81F2DD00925612 /* start.txt */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
 		D4A21AA71D7FC1C60011A71A = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +66,11 @@
 			children = (
 				D4A21AB31D7FC1C60011A71A /* AppDelegate.swift */,
 				D4A21AB51D7FC1C60011A71A /* MasterViewController.swift */,
-				D4A21AB71D7FC1C60011A71A /* DetailViewController.swift */,
 				D4A21AB91D7FC1C60011A71A /* Main.storyboard */,
 				D4A21ABC1D7FC1C60011A71A /* Assets.xcassets */,
 				D4A21ABE1D7FC1C60011A71A /* LaunchScreen.storyboard */,
 				D4A21AC11D7FC1C60011A71A /* Info.plist */,
+				D48583731D81F2DD00925612 /* Content */,
 			);
 			path = WordScramble;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4A21AC01D7FC1C60011A71A /* LaunchScreen.storyboard in Resources */,
+				D48583751D81F2DD00925612 /* start.txt in Resources */,
 				D4A21ABD1D7FC1C60011A71A /* Assets.xcassets in Resources */,
 				D4A21ABB1D7FC1C60011A71A /* Main.storyboard in Resources */,
 			);
@@ -138,7 +147,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4A21AB81D7FC1C60011A71A /* DetailViewController.swift in Sources */,
 				D4A21AB61D7FC1C60011A71A /* MasterViewController.swift in Sources */,
 				D4A21AB41D7FC1C60011A71A /* AppDelegate.swift in Sources */,
 			);
@@ -290,6 +298,7 @@
 				D4A21AC61D7FC1C60011A71A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
