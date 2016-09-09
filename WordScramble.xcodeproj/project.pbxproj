@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D48583741D81F2DD00925612 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		D48583741D81F2DD00925612 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = start.txt; path = Content/start.txt; sourceTree = "<group>"; };
 		D4A21AB01D7FC1C60011A71A /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A21AB31D7FC1C60011A71A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4A21AB51D7FC1C60011A71A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -37,12 +37,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D48583731D81F2DD00925612 /* Content */ = {
+		D48583761D82037200925612 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				D48583741D81F2DD00925612 /* start.txt */,
 			);
-			path = Content;
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D48583771D82037900925612 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4A21AB91D7FC1C60011A71A /* Main.storyboard */,
+				D4A21ABE1D7FC1C60011A71A /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D48583781D82039700925612 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D4A21AB31D7FC1C60011A71A /* AppDelegate.swift */,
+				D4A21AB51D7FC1C60011A71A /* MasterViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		D4A21AA71D7FC1C60011A71A = {
@@ -64,13 +82,11 @@
 		D4A21AB21D7FC1C60011A71A /* WordScramble */ = {
 			isa = PBXGroup;
 			children = (
-				D4A21AB31D7FC1C60011A71A /* AppDelegate.swift */,
-				D4A21AB51D7FC1C60011A71A /* MasterViewController.swift */,
-				D4A21AB91D7FC1C60011A71A /* Main.storyboard */,
+				D48583781D82039700925612 /* Controller */,
+				D48583771D82037900925612 /* View */,
+				D48583761D82037200925612 /* Model */,
 				D4A21ABC1D7FC1C60011A71A /* Assets.xcassets */,
-				D4A21ABE1D7FC1C60011A71A /* LaunchScreen.storyboard */,
 				D4A21AC11D7FC1C60011A71A /* Info.plist */,
-				D48583731D81F2DD00925612 /* Content */,
 			);
 			path = WordScramble;
 			sourceTree = "<group>";
